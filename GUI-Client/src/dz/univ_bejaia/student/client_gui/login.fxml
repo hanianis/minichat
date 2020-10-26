@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootAnchorPane" maxHeight="875.0" maxWidth="580.0" minHeight="875.0" minWidth="580.0" prefHeight="875.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dz.univ_bejaia.student.client_gui.ControllerLogin">
+   <children>
+      <VBox layoutX="54.0" layoutY="214.0" prefHeight="211.0" prefWidth="472.0" spacing="16.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="54.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="USERNAME" />
+            <TextField fx:id="login_field" promptText="login" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD" />
+            <TextField fx:id="password_field" promptText="******" />
+            <HBox spacing="4.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HOST">
+                     <HBox.margin>
+                        <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField promptText="localhost" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PORT">
+                     <HBox.margin>
+                        <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField promptText="9096" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox layoutX="197.0" layoutY="465.0" spacing="20.0">
+         <children>
+            <Button fx:id="login_button" mnemonicParsing="false" onAction="#setLogin_button" prefHeight="26.0" prefWidth="100.0" text="sign in" />
+            <Button mnemonicParsing="false" onAction="#setSingUp_button" prefHeight="26.0" prefWidth="100.0" text="sign up" />
+         </children>
+      </HBox>
+      <Text fx:id="server_state" fill="#42d02c" layoutX="184.0" layoutY="651.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SERVER STATUS" textAlignment="CENTER" wrappingWidth="198.7294921875">
+         <font>
+            <Font name="Roboto" size="19.0" />
+         </font>
+      </Text>
+      <Label fx:id="info_label" alignment="CENTER" layoutX="3.0" layoutY="411.0" prefHeight="41.0" prefWidth="550.0" textAlignment="CENTER" textFill="#ff0404" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Roboto" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
