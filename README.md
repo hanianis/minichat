@@ -1,18 +1,18 @@
 
-#mini-chat programme 
+# mini-chat programme 
 
-###mini project training for bejaia universty
+### mini project training for bejaia universty
 
 
-#HOW USE :
+# HOW USE :
 
-##Server :  
+## Server :  
  1) build server artifact in the server module
  2) run
  
- ##establish-connection :
+ ## establish-connection :
  
- ###command 
+ ### command 
  
  telnet  localhost port 9096
  
@@ -25,4 +25,4 @@
  quit
    
 
-###GUI interface client interface not yet coded.
+### GUI interface client interface not yet coded.
