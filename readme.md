@@ -12,7 +12,7 @@ mini project training for bejaia universty
  1) establish-connection :
     telnet  localhost 9096
     #command: 
-    to login > <u>login</u> username password 
+    to login > login  ++username++ password 
     
     to send message > MSG sendto "message body" 
     
