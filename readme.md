@@ -1,4 +1,5 @@
-mini-chat as the name describes  it, mini project requested by our teacher from my school.
+mini-chat programme 
+mini project training for bejaia universty
 
 
 
@@ -6,11 +7,12 @@ mini-chat as the name describes  it, mini project requested by our teacher from 
  1) build server artifact in the server module
  2) run
  
+ HOW USE :
 #connecet to server using telent :
  1) establish-connection :
     telnet  localhost 9096
     #command: 
-    to login > login username password 
+    to login > <u>login</u> username password 
     
     to send message > MSG sendto "message body" 
     
