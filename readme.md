@@ -10,7 +10,9 @@
  2) run
  
  ##establish-connection :
+ 
  ###command 
+ 
  telnet  localhost port 9096
  
  new u̲s̲e̲r̲ p̲a̲s̲s̲w̲o̲r̲d̲
@@ -22,4 +24,4 @@
  quit
    
 
-#GUI interface client interface not yet coded.
+###GUI interface client interface not yet coded.
