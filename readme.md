@@ -1,8 +1,10 @@
 #mini-chat programme 
+
 ###mini project training for bejaia universty
 
 
 #HOW USE :
+
 ##Server :  
  1) build server artifact in the server module
  2) run
