@@ -1,25 +1,23 @@
-mini-chat programme 
-mini project training for bejaia universty
+#mini-chat programme 
+###mini project training for bejaia universty
 
 
-
-#Server (consol) finished 
+#HOW USE :
+##Server :  
  1) build server artifact in the server module
  2) run
  
- HOW USE :
-#connecet to server using telent :
- 1) establish-connection :
-    telnet  localhost 9096
-    #command: 
-    to login > login u̲s̲e̲r̲ p̲a̲s̲s̲w̲o̲r̲d̲
+ ##establish-connection :
+ ###command 
+ telnet  localhost port 9096
+ 
+ new u̲s̲e̲r̲ p̲a̲s̲s̲w̲o̲r̲d̲
+ 
+ login u̲s̲e̲r̲ p̲a̲s̲s̲w̲o̲r̲d̲
     
-    to send message > MSG sendto "message body" 
+ MSG u̲s̲e̲r̲ [TEXT]
     
-    to logoff > quit
-    
-    to create new user > new login password
+ quit
+   
 
 #GUI interface client interface not yet coded.
-
-NOTE : THIS PROGRAM IS still IN DEVELOPMENT
