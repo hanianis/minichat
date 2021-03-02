@@ -16,11 +16,11 @@
  
  telnet  localhost port 9096
  
- new u̲s̲e̲r̲ p̲a̲s̲s̲w̲o̲r̲d̲
+ new u̲s̲e̲r̲  p̲a̲s̲s̲w̲o̲r̲d̲
  
- login u̲s̲e̲r̲ p̲a̲s̲s̲w̲o̲r̲d̲
+ login u̲s̲e̲r̲  p̲a̲s̲s̲w̲o̲r̲d̲
     
- MSG u̲s̲e̲r̲ [TEXT]
+ MSG u̲s̲e̲r̲   [TEXT]
     
  quit
    
